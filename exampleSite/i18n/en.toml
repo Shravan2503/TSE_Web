@@ -8,6 +8,14 @@ other = "Portfolio"
 other = "Blog"
 [contact]
 other = "Contact"
+
+[contentwriting]
+other = "Content Writing"
+[copywriting]
+other = "Copy Writing"
+[creativewriting]
+other = "Creative Writing"
+
 [partners]
 other = "Partners"
 [faqs]
