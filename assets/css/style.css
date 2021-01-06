@@ -828,11 +828,13 @@ a:focus, a:hover {
   ==================================================================*/
 .contact-form {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .contact-form {
     margin-top: 20px;
+    text-align: center;
   }
 }
 
