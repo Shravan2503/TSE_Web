@@ -15,9 +15,9 @@
             </div>
         </div>
         <div class="row">
-            {{ "<!-- Contact Details -->" | safeHTML }}
-            {{ "<!-- Contact Form -->" | safeHTML }}
-            <div class="contact-form col-12 col-md-12 ">
+             <div class="col">
+                <div class="title text-center">
+            {{ "<!-- Contact Form -->" | safeHTML }
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -53,14 +53,14 @@
             <div class="col-12 col-md-4">
                 <div class="address-block contact-meta-block">
                     <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
+                    <h4>Visit us at</h4>
                     {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
+                    <h4>Drop in a message at</h4>
                     <p>
                          {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
                         <br> {{ with .Site.Params.contact.email }} Email: {{ . }} {{ end }}
