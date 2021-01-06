@@ -2,7 +2,7 @@ baseURL = "https://thescriptexpress.com"
 languageCode = "en-us"
 title = "The Script Express, Ingenious Ideas"
 theme = "navigator-hugo"
-summaryLength = 10
+summaryLength = 20
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -21,15 +21,12 @@ DefaultContentLanguage = "en"
 [params]
 logo = "images/logo.png"
 
-# Gestion des langues : FR / EN / NL / DE
-[[Params.listeLangues]]
-code = "fr"
 [[Params.listeLangues]]
 code = "en"
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
-weight = 2
+weight = 1
 languageCode = "en-us"
 title = "The Script Express"
 dateFormat = "January 2, 2006"
@@ -37,28 +34,15 @@ home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "Well, this site is for
-A creative consultancy firm offering account management, creative writing, content writing and branding services, for the Indian brand.
-"
+footerDescription = "A creative consultancy firm offering account management, creative writing, content writing and branding services, for the Indian brand."
 footerQuicklinkTitle = "More"
 footerAboutTitle = "About"
-
 
 # cookies
 [params.cookies]
 enable = true
 expire_days = 2
 
-# Hero Area Section
-[Languages.en.params.hero]
-enable  = true
-heading = "We love to make brands grow"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-button  = true
-btnText = "Know More"
-btnURL  = "https://themefisher.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
-videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
@@ -76,7 +60,7 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 # Contact Section
 [Languages.en.params.contact]
 enable  = true
-topTitle= "DROP US A NOTE"
+topTitle= "REACH US AT..."
 title   = "Contact Us."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 address = "14/05, Stockhome <br> Victori Palace , United States"
@@ -127,15 +111,15 @@ weight  = 6
 
 # Footer Service Menu
 [[menu.service]]
-name    = "graphicdesign"
+name    = "contentwriting"
 url     = "service"
 weight  = 1
 [[menu.service]]
-name    = "webdesign"
+name    = "copywriting"
 url     = "service"
 weight  = 2
 [[menu.service]]
-name    = "webdevelopment"
+name    = "creativewriting"
 url     = "service"
 weight  = 3
 
