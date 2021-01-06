@@ -61,10 +61,10 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 # Contact Section
 [Languages.en.params.contact]
 enable  = true
-topTitle= "REACH US AT..."
-title   = "Contact Us."
-subtitle= "Reach out to us, and we'll work together to create stories that last."
-address = "A3FOD, Jains Palm N Meadows, Rakkiyapalayam Main Road, Ammapalayam, Tiruppur 641652"
+topTitle= "RING US UP!"
+title   = "Contact"
+subtitle= "We'll work together to create stories that last."
+address = "A3FOD, Jains Palm N Meadows, Ammapalayam, Tiruppur 641652"
 phone   = "+91 97919 31119"
 email   = "shravan@thescriptexpress.com"
 facebook= "https://www.facebook.com/thescriptexpress"
