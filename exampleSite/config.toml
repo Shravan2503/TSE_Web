@@ -36,7 +36,6 @@ menufixed = false
 
 footerDescription = "A creative consultancy firm offering account management, creative writing, content writing and branding services, for the Indian brand."
 footerQuicklinkTitle = "More"
-footerServiceTitle = "Service"
 footerAboutTitle = "About"
 
 # cookies
@@ -61,16 +60,20 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 # Contact Section
 [Languages.en.params.contact]
 enable  = true
-topTitle= "RING US UP!"
-title   = "Contact"
-subtitle= "We'll work together to create stories that last."
-address = "A3FOD, Jains Palm N Meadows, Ammapalayam, Tiruppur 641652"
-phone   = "+91 97919 31119"
-email   = "shravan@thescriptexpress.com"
-facebook= "https://www.facebook.com/thescriptexpress"
-twitter = "https://twitter.com/thescriptexpress"
-linkedin= "https://www.linkedin.com/thescriptexpress"
-instagram= "https://www.instagram.com/thescriptexpress"
+topTitle= "REACH US AT..."
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
 [Languages.en.params.cta]
