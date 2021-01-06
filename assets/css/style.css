@@ -827,7 +827,7 @@ a:focus, a:hover {
   Contact
   ==================================================================*/
 .contact-form {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -838,14 +838,14 @@ a:focus, a:hover {
 
 .contact-form .form-control {
   background-color: transparent;
-  border: 1px solid #dedede;
+  border: 2px solid #dedede;
   box-shadow: none;
   height: 45px !important;
   color: #0c0c0c;
   height: 38px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .contact-form input:hover,
