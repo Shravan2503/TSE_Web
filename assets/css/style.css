@@ -917,15 +917,6 @@ a:focus, a:hover {
   padding: 10px;
 }
 
-.map {
-  position: relative;
-}
-
-.map #map {
-  height: 400px;
-  color: white;
-}
-
 .contact-meta-block {
   margin-top: 30px;
   padding: 40px 0;
