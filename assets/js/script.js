@@ -206,7 +206,3 @@
 
 
 	})(jQuery);
-
-
-
-	window.marker = null;
