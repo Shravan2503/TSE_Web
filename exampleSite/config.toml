@@ -32,10 +32,11 @@ title = "The Script Express"
 dateFormat = "January 2, 2006"
 home = "Home"
 logo = "images/logo.png"
-menufixed = false
+menufixed = true
 
 footerDescription = "A creative consultancy firm offering account management, creative writing, content writing and branding services, for the Indian brand."
 footerQuicklinkTitle = "More"
+footerServiceTitle = "Service"
 footerAboutTitle = "About"
 
 # cookies
